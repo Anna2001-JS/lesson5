@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашнє завлання 4</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1 class="wow-text">Вітаю!</h1>
+    <div>
+      <p>
+        Застосовується до тегів p, вкладених у div, на першому рівні, вага 2*
+      </p>
+    </div>
+    <p class="text">Це кобінований селектор (клас+тег), його вага 11</p>
+    <p class="text-class">Це селектор класу, його вага 10</p>
+    <p id="text-id">Це селектор id, його вага 100</p>
+    <p title="attr">Це селектор атрибута, його вага 11</p>
+    <div class="wow">
+      <p>Це вкладений селектор, його вага 12</p>
+    </div>
+    <div>
+      <p class="child">Це дочірній селектор, його вага 12</p>
+    </div>
+    <p class="look">Це послідовність селекторів, його вага 11</p>
+    <div class="combined">
+      <p class="text-class" id="combined-id" title="attr">
+        Це комбінований селектор, його вага 132
+      </p>
+    </div>
+    <p class="combo-class-attr" data-combo="true">
+      Це комбінація класу та атрибута, його вага 21
+    </p>
+    <p class="combo-id-class" id="combo-id">
+      Це комбінований тег, його вага 111
+    </p>
+  </body>
+</html>

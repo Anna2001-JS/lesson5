@@ -1,0 +1,35 @@
+
+div>p {
+   background-color: rgb(214, 176, 133);
+}
+p.text {
+   color: red;
+}
+.text-class {
+   color: blue;
+}
+#text-id {
+   color: rgb(6, 110, 6);
+}
+p[title="attr"] {
+   color: purple;
+   text-align: center;
+}
+div.wow p {
+   color: rgb(16, 189, 53);
+}
+div>p.child {
+   color: brown;
+}
+p.look {
+   color: rgb(216, 48, 76);
+}
+div.combined p.text-class#combined-id[title="attr"] {
+   color: teal;
+}
+p.combo-class-attr[data-combo="true"] {
+   color: rgb(136, 21, 136);
+}
+p.combo-id-class#combo-id {
+   color: navy;
+}
